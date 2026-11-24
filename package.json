@@ -1,0 +1,46 @@
+{
+  "name": "volta-gadget-store",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:api": "node --watch scripts/dev-server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --import ./tests/helpers/register.mjs --test",
+    "e2e": "playwright test",
+    "seed:e2e": "node scripts/seed-e2e-users.js"
+  },
+  "dependencies": {
+    "axios": "1.7.7",
+    "bcryptjs": "2.4.3",
+    "cookie-parser": "1.4.7",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.21.1",
+    "express-rate-limit": "7.4.1",
+    "helmet": "8.0.0",
+    "jsonwebtoken": "9.0.2",
+    "lucide-react": "0.383.0",
+    "mongoose": "8.7.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hook-form": "7.53.0",
+    "react-router-dom": "6.26.2",
+    "zod": "3.23.8",
+    "zustand": "4.5.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.47.2",
+    "@vitejs/plugin-react": "4.3.2",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.13",
+    "vite": "5.4.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

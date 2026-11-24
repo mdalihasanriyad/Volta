@@ -1,0 +1,3 @@
+// Country list for address forms. Whether we deliver there, and whether Cash on Delivery works, is decided by the server (shipping zones).
+export const COUNTRIES = [['BD', 'Bangladesh'], ['IN', 'India'], ['PK', 'Pakistan'], ['NP', 'Nepal'], ['LK', 'Sri Lanka'], ['AE', 'United Arab Emirates'], ['SA', 'Saudi Arabia'], ['QA', 'Qatar'], ['KW', 'Kuwait'], ['OM', 'Oman'], ['MY', 'Malaysia'], ['SG', 'Singapore'], ['TH', 'Thailand'], ['JP', 'Japan'], ['KR', 'South Korea'], ['CN', 'China'], ['GB', 'United Kingdom'], ['DE', 'Germany'], ['FR', 'France'], ['IT', 'Italy'], ['NL', 'Netherlands'], ['US', 'United States'], ['CA', 'Canada'], ['AU', 'Australia'], ['NZ', 'New Zealand']]
+export const countryName = (code) => COUNTRIES.find(([c]) => c === code)?.[1] || code
