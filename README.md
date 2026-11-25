@@ -1,4 +1,4 @@
-# Volta – Gadget E-commerce: UI, admin, backend, integration)
+# Volta – Gadget E-commerce: UI, admin, backend, integration
 
 React + Vite + Tailwind frontend and an Express + MongoDB API in the same root project (JavaScript only). The storefront and admin panel now run entirely on the API (no mock data in the app).
 
